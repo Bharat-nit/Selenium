@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22769" started-at="2020-11-06T03:22:44 IST" finished-at="2020-11-06T03:23:07 IST">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="19608" started-at="2020-11-06T03:22:44 IST" finished-at="2020-11-06T03:23:04 IST">
+      <class name="SeleniumGridTest.SeleniumGridTest.GridTest">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:SeleniumGridTest.SeleniumGridTest.GridTest@34c4973]" name="launchbrowser" is-config="true" duration-ms="5037" started-at="2020-11-06T03:22:44 IST" finished-at="2020-11-06T03:22:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:SeleniumGridTest.SeleniumGridTest.GridTest@34c4973]" name="calculatepercent" duration-ms="14510" started-at="2020-11-06T03:22:49 IST" finished-at="2020-11-06T03:23:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatepercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SeleniumGridTest.SeleniumGridTest.GridTest@34c4973]" name="closeBrowser" is-config="true" duration-ms="2" started-at="2020-11-06T03:23:04 IST" finished-at="2020-11-06T03:23:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumGridTest.SeleniumGridTest.GridTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="22769" started-at="2020-11-06T03:22:44 IST" finished-at="2020-11-06T03:23:07 IST">
+      <class name="SeleniumGridTest.SeleniumGridTest.GridTest">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:SeleniumGridTest.SeleniumGridTest.GridTest@27a5f880]" name="launchbrowser" is-config="true" duration-ms="9459" started-at="2020-11-06T03:22:44 IST" finished-at="2020-11-06T03:22:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:SeleniumGridTest.SeleniumGridTest.GridTest@27a5f880]" name="calculatepercent" duration-ms="13289" started-at="2020-11-06T03:22:53 IST" finished-at="2020-11-06T03:23:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatepercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SeleniumGridTest.SeleniumGridTest.GridTest@27a5f880]" name="closeBrowser" is-config="true" duration-ms="7" started-at="2020-11-06T03:23:07 IST" finished-at="2020-11-06T03:23:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- SeleniumGridTest.SeleniumGridTest.GridTest -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
