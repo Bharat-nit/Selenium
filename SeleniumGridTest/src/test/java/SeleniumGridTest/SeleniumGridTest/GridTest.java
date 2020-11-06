@@ -25,10 +25,10 @@ public class GridTest {
 	@BeforeTest
 	public void launchbrowser(String browser) throws MalformedURLException {
 		if (browser.equalsIgnoreCase("chrome")) {
-			String Node = "http://192.168.43.250:4444/wd/hub";
+			String Node = "http://51.132.239.199:4444/wd/hub";
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setBrowserName("chrome");
-			cap.setPlatform(Platform.WINDOWS);
+			cap.setPlatform(Platform.LINUX);
 
 			// Chrome option
 			ChromeOptions options = new ChromeOptions();
@@ -36,10 +36,10 @@ public class GridTest {
 
 			driver = new RemoteWebDriver(new URL(Node), cap);
 		} else if (browser.equalsIgnoreCase("firefox")) {
-			String Node = "http://192.168.43.250:4444/wd/hub";
+			String Node = "http://51.132.239.199:4444/wd/hub";
 			DesiredCapabilities cap = new DesiredCapabilities();
 			cap.setBrowserName("firefox");
-			cap.setPlatform(Platform.WINDOWS);
+			cap.setPlatform(Platform.LINUX);
 
 			// Chrome option
 
