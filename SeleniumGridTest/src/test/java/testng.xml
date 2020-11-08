@@ -2,12 +2,14 @@
 <suite name="Suite" parallel="tests" thread-count="2">
 	<test name="FirefoxTest">
 		<parameter name="browser" value="firefox" />
+		<parameter name="url" value="https://www.google.com"/>
 		<classes>
 			<class name="SeleniumGridTest.SeleniumGridTest.GridTest" />
 		</classes>
 	</test> <!-- Test -->
 	<test name="ChromeTest">
 		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.google.com"/>
 		<classes>
 			<class name="SeleniumGridTest.SeleniumGridTest.GridTest" />
 		</classes>
