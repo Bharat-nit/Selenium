@@ -21,9 +21,9 @@ public class GridTest {
 	public String URL, Node;
 	protected ThreadLocal<RemoteWebDriver> threadDriver = null;
 
-	@Parameters("browser")
 	@BeforeTest
-	public void launchbrowser(String browser) throws MalformedURLException {
+	@Parameters("browser")
+	public void launchbrowser(@Optional("chrome") String browser) throws MalformedURLException {
 		if (browser.equalsIgnoreCase("chrome")) {
 			String Node = "http://51.132.239.199:4444/wd/hub";
 			DesiredCapabilities cap = new DesiredCapabilities();
